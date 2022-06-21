@@ -1,0 +1,79 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/michael/fun_projects/cpp_learning/neural_net/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+activation	neuron.cpp	/^		float activation;$/;"	m	class:neuron	typeref:typename:float	file:
+activations	neuron2.cpp	/^		Eigen::MatrixXd activations;$/;"	m	class:layer	typeref:typename:Eigen::MatrixXd	file:
+add_neuron	neuron.cpp	/^		void add_neuron(neuron* new_neuron){$/;"	f	class:layer	typeref:typename:void	file:
+adj_activations	neuron2.cpp	/^		Eigen::MatrixXd adj_activations;$/;"	m	class:layer	typeref:typename:Eigen::MatrixXd	file:
+adj_bias	neuron.cpp	/^		void adj_bias(float factor){	\/\/adds input value to bias$/;"	f	class:neuron	typeref:typename:void	file:
+back_layer	neuron.cpp	/^		layer* back_layer;$/;"	m	class:layer	typeref:typename:layer *	file:
+back_layer	neuron2.cpp	/^		layer* back_layer;$/;"	m	class:layer	typeref:typename:layer *	file:
+back_propagate	network.cpp	/^void back_propagate(layer* last_layer, Eigen::MatrixXd expected_values, bool force_correct){	\/\//;"	f	typeref:typename:void
+backward_cons	neuron.cpp	/^		std::vector<neuron*> backward_cons;$/;"	m	class:neuron	typeref:typename:std::vector<neuron * >	file:
+bias	neuron.cpp	/^		float bias;$/;"	m	class:neuron	typeref:typename:float	file:
+biases	neuron2.cpp	/^		Eigen::MatrixXd biases;$/;"	m	class:layer	typeref:typename:Eigen::MatrixXd	file:
+calculate_layer	neuron.cpp	/^		void calculate_layer(){$/;"	f	class:layer	typeref:typename:void	file:
+calculate_layer	neuron2.cpp	/^		void calculate_layer(){$/;"	f	class:layer	typeref:typename:void	file:
+calculate_network	network.cpp	/^void calculate_network(layer* first_layer){	\/\/given first layer activations, calculate activat/;"	f	typeref:typename:void
+clear_suggestion	neuron2.cpp	/^		void clear_suggestion(){$/;"	f	class:layer	typeref:typename:void	file:
+clear_suggestions	network.cpp	/^void clear_suggestions(layer* first_layer){$/;"	f	typeref:typename:void
+debug_string	neuron.cpp	/^		std::string debug_string;$/;"	m	class:neuron	typeref:typename:std::string	file:
+description	neuron.cpp	/^		Eigen::MatrixXd description;$/;"	m	class:layer	typeref:typename:Eigen::MatrixXd	file:
+description	neuron2.cpp	/^		Eigen::MatrixXd description;$/;"	m	class:layer	typeref:typename:Eigen::MatrixXd	file:
+dx_sigmoid	network.cpp	/^float dx_sigmoid(float x){	\/\/gets derivative of sigmoid at x = x$/;"	f	typeref:typename:float
+enact_suggestions	network.cpp	/^void enact_suggestions(layer* last_layer, bool bias){	\/\/subtracts suggested gradient from weig/;"	f	typeref:typename:void
+fconnect	neuron.cpp	/^		void fconnect(neuron* new_connection){	\/\/appends input neuron pointer to forward connections/;"	f	class:neuron	typeref:typename:void	file:
+forward_connect	neuron.cpp	/^		void forward_connect(){		\/\/connects every neuron in current layer to every neuron in forward/;"	f	class:layer	typeref:typename:void	file:
+forward_connect	neuron2.cpp	/^		void forward_connect(layer* next_layer){	\/\/connects current layer to next$/;"	f	class:layer	typeref:typename:void	file:
+forward_cons	neuron.cpp	/^		std::vector<neuron*> forward_cons;$/;"	m	class:neuron	typeref:typename:std::vector<neuron * >	file:
+forward_weights	neuron.cpp	/^		std::vector<float> forward_weights;$/;"	m	class:neuron	typeref:typename:std::vector<float>	file:
+front_layer	neuron.cpp	/^		layer* front_layer;$/;"	m	class:layer	typeref:typename:layer *	file:
+front_layer	neuron2.cpp	/^		layer* front_layer;$/;"	m	class:layer	typeref:typename:layer *	file:
+generate_description	network.cpp	/^void generate_description(layer* active_layer){$/;"	f	typeref:typename:void
+generate_description	neuron.cpp	/^		void generate_description(){ 	\/\/creates matrix for calculating layer activations$/;"	f	class:layer	typeref:typename:void	file:
+generate_description	neuron2.cpp	/^		void generate_description(){ 	\/\/creates matrix for calculating layer activations$/;"	f	class:layer	typeref:typename:void	file:
+get_bias	neuron.cpp	/^		float get_bias(){	\/\/returns current bias value$/;"	f	class:neuron	typeref:typename:float	file:
+get_cost	network.cpp	/^float get_cost(layer final_layer, Eigen::MatrixXd expected_values){	\/\/gets the cost of a singl/;"	f	typeref:typename:float
+get_debug	neuron.cpp	/^		std::string get_debug(){	\/\/returns debug string$/;"	f	class:neuron	typeref:typename:std::string	file:
+gradient	network.cpp	/^void gradient(layer* active_layer, bool force_correct){	\/\/finds cost function gradient at give/;"	f	typeref:typename:void
+is_input	neuron2.cpp	/^		bool is_input;$/;"	m	class:layer	typeref:typename:bool	file:
+is_output	neuron2.cpp	/^		bool is_output;$/;"	m	class:layer	typeref:typename:bool	file:
+is_second	neuron2.cpp	/^		bool is_second;$/;"	m	class:layer	typeref:typename:bool	file:
+is_third	neuron2.cpp	/^		bool is_third;$/;"	m	class:layer	typeref:typename:bool	file:
+layer	neuron.cpp	/^		layer(){$/;"	f	class:layer	file:
+layer	neuron.cpp	/^class layer{$/;"	c	file:
+layer	neuron2.cpp	/^		layer(float neurons){$/;"	f	class:layer	file:
+layer	neuron2.cpp	/^class layer{$/;"	c	file:
+main	eigen_test.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	network.cpp	/^int main(){$/;"	f	typeref:typename:int
+neuron	neuron.cpp	/^		neuron(){	\/\/class constructor$/;"	f	class:neuron	file:
+neuron	neuron.cpp	/^class neuron{$/;"	c	file:
+neurons	neuron.cpp	/^		std::vector<neuron*> neurons;$/;"	m	class:layer	typeref:typename:std::vector<neuron * >	file:
+normalize_correction	network.cpp	/^void normalize_correction(layer* first_layer, int num_cases){$/;"	f	typeref:typename:void
+num_bcons	neuron.cpp	/^		int num_bcons(){	\/\/returns number of backward connections$/;"	f	class:neuron	typeref:typename:int	file:
+num_fcons	neuron.cpp	/^		int num_fcons(){	\/\/returns number of forward connections$/;"	f	class:neuron	typeref:typename:int	file:
+num_neurons	neuron2.cpp	/^		int num_neurons;$/;"	m	class:layer	typeref:typename:int	file:
+output_gradient	network.cpp	/^void output_gradient(layer* active_layer, Eigen::MatrixXd expected_values, bool force_correct){	/;"	f	typeref:typename:void
+propagation_data	neuron2.cpp	/^		Eigen::MatrixXd propagation_data;$/;"	m	class:layer	typeref:typename:Eigen::MatrixXd	file:
+read_image	read_in.cpp	/^void read_image(layer* input_layer, int position){	\/\/reads indicated mnist number into first l/;"	f	typeref:typename:void
+read_test_image	read_in.cpp	/^void read_test_image(layer* input_layer, int position){$/;"	f	typeref:typename:void
+read_test_label	read_in.cpp	/^int read_test_label(int beginning, int end){	\/\/reads image and label from test dataset$/;"	f	typeref:typename:int
+read_training_label	read_in.cpp	/^Eigen::MatrixXd read_training_label(int beginning, int end){$/;"	f	typeref:typename:Eigen::MatrixXd
+set_bias	neuron.cpp	/^		void set_bias(float new_bias){	\/\/sets bias value$/;"	f	class:neuron	typeref:typename:void	file:
+set_debug	neuron.cpp	/^		void set_debug(std::string new_debug){	\/\/setting debug string$/;"	f	class:neuron	typeref:typename:void	file:
+sigmoid	neuron.cpp	/^		void sigmoid(){		\/\/applies bias to raw activation, applies sigmoid, sets as new activation$/;"	f	class:neuron	typeref:typename:void	file:
+sigmoid	neuron2.cpp	/^float sigmoid(float x){		\/\/applies sigmoid to x$/;"	f	typeref:typename:float
+squishify	neuron.cpp	/^		void squishify(){$/;"	f	class:layer	typeref:typename:void	file:
+squishify	neuron2.cpp	/^		void squishify(){$/;"	f	class:layer	typeref:typename:void	file:
+suggested_bias	neuron2.cpp	/^		Eigen::MatrixXd suggested_bias;$/;"	m	class:layer	typeref:typename:Eigen::MatrixXd	file:
+suggested_gradient	neuron2.cpp	/^		Eigen::MatrixXd suggested_gradient;$/;"	m	class:layer	typeref:typename:Eigen::MatrixXd	file:
+test_single	network.cpp	/^int test_single(layer* input_layer, layer* output_layer, int position){$/;"	f	typeref:typename:int
+train_batch	network.cpp	/^void train_batch(layer* first_layer, layer* last_layer, int begin, int end, bool bias, bool forc/;"	f	typeref:typename:void
